@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        North Star Bakery | Contact and Pre-Orders
+    </title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <a href="index.html"
+               class="logo-link"
+               aria-label="North Star Bakery home">
+
+                <img class="logo"
+                     src="bakery-logo_c.png"
+                     alt="North Star Bakery logo">
+
+            </a>
+
+            <nav class="main-nav"
+                 aria-label="Main navigation">
+
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Products
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="active"
+                           href="contact.html">
+                            Contact &amp; Pre-Orders
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="page-hero">
+
+            <p class="eyebrow">
+                We're Here to Help
+            </p>
+
+            <h1>
+                Contact &amp; Pre-Order Requests
+            </h1>
+
+            <p>
+                Have a question or planning a special
+                order? Send us your request and our
+                bakery team will follow up with you.
+            </p>
+
+        </section>
+
+
+        <section class="contact-layout">
+
+            <div class="form-section">
+
+                <p class="eyebrow">
+                    Get in Touch
+                </p>
+
+                <h2>
+                    Send Us a Request
+                </h2>
+
+                <p>
+                    Use this form to ask a general question
+                    or request a bakery pre-order. We will
+                    follow up to confirm availability and
+                    details.
+                </p>
+
+
+                <form action="#" method="post">
+
+                    <fieldset>
+
+                        <legend>
+                            Your Contact Information
+                        </legend>
+
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                minlength="2"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required>
+
+                        </div>
+
+                    </fieldset>
+
+
+                    <fieldset>
+
+                        <legend>
+                            Request Details
+                        </legend>
+
+
+                        <div class="form-group">
+
+                            <label for="pickup-date">
+                                Pickup Date
+                            </label>
+
+                            <input
+                                type="date"
+                                id="pickup-date"
+                                name="pickup-date"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="request-type">
+                                Request Type
+                            </label>
+
+                            <select
+                                id="request-type"
+                                name="request-type"
+                                required>
+
+                                <option value="">
+                                    Select a request type
+                                </option>
+
+                                <option value="pre-order">
+                                    Pre-order
+                                </option>
+
+                                <option value="general-question">
+                                    General question
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="item-details">
+                                Item Details
+                            </label>
+
+                            <textarea
+                                id="item-details"
+                                name="item-details"
+                                rows="5"
+                                minlength="5"
+                                placeholder="Tell us what you would like to order or ask about."
+                                required></textarea>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="allergy-notes">
+                                Allergy Notes, if applicable
+                            </label>
+
+                            <textarea
+                                id="allergy-notes"
+                                name="allergy-notes"
+                                rows="4"
+                                placeholder="List any allergy concerns or write none."></textarea>
+
+                        </div>
+
+                    </fieldset>
+
+
+                    <button type="submit">
+                        Submit Request
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <aside class="contact-info">
+
+                <div class="contact-card">
+
+                    <h2>Location</h2>
+
+                    <p>
+                        North Star Bakery serves customers
+                        from our neighborhood storefront.
+                    </p>
+
+                    <p>
+                        Please contact us before pickup if
+                        you need special assistance with
+                        your order.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <h2>
+                        Hours of Operation
+                    </h2>
+
+                    <p>
+                        <strong>Monday-Saturday</strong><br>
+                        7:00 a.m.-6:00 p.m.
+                    </p>
+
+                    <p>
+                        <strong>Sunday</strong><br>
+                        8:00 a.m.-2:00 p.m.
+                    </p>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <img class="footer-logo"
+                     src="bakery-logo_c.png"
+                     alt="North Star Bakery logo">
+
+                <p>
+                    Handmade baking and warm neighborhood service.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <p class="copyright">
+            &copy; 2026 North Star Bakery.
+            Freshly baked for our community.
+        </p>
+
+    </footer>
+
+</body>
+</html>
