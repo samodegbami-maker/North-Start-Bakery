@@ -107,7 +107,11 @@
                 </p>
 
 
-                <form action="#" method="post">
+                <form
+                    id="preorder-form"
+                    action="#"
+                    method="post"
+                    novalidate>
 
                     <fieldset>
 
@@ -129,6 +133,12 @@
                                 minlength="2"
                                 required>
 
+                                <p
+                                    class="error-message"
+                                    id="name-error"
+                                    aria-live="polite">
+                                </p>
+
                         </div>
 
 
@@ -143,6 +153,12 @@
                                 id="email"
                                 name="email"
                                 required>
+
+                                <p
+                                    class="error-message"
+                                    id="email-error"
+                                    aria-live="polite">
+                                </p>
 
                         </div>
 
@@ -167,6 +183,12 @@
                                 id="pickup-date"
                                 name="pickup-date"
                                 required>
+
+                                <p
+                                    class="error-message"
+                                    id="pickup-date-error"
+                                    aria-live="polite">
+                                </p>
 
                         </div>
 
@@ -196,6 +218,12 @@
 
                             </select>
 
+                            <p
+                                class="error-message"
+                                id="request-type-error"
+                                aria-live="polite">
+                            </p>
+
                         </div>
 
 
@@ -212,6 +240,12 @@
                                 minlength="5"
                                 placeholder="Tell us what you would like to order or ask about."
                                 required></textarea>
+
+                                <p
+                                    class="error-message"
+                                    id="item-details-error"
+                                    aria-live="polite">
+                                </p>
 
                         </div>
 
@@ -236,6 +270,12 @@
                     <button type="submit">
                         Submit Request
                     </button>
+
+                    <p
+                        id="form-success"
+                        class="success-message"
+                        aria-live="polite">
+                    </p>
 
                 </form>
 
@@ -337,6 +377,8 @@
         </p>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

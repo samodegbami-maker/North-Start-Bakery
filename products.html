@@ -124,6 +124,14 @@
                         $5-$10 per loaf.
                     </p>
 
+                    <button
+                        type="button"
+                        class="favorite-button"
+                        data-product="bread"
+                        aria-pressed="false">
+                        Add to Favorites
+                    </button>
+
                 </article>
 
 
@@ -148,6 +156,14 @@
                         Typical price range:
                         $3-$7 each.
                     </p>
+
+                    <button
+                        type="button"
+                        class="favorite-button"
+                        data-product="pastries"
+                        aria-pressed="false">
+                        Add to Favorites
+                    </button>
 
                 </article>
 
@@ -174,7 +190,38 @@
                         $30-$75, depending on size and details.
                     </p>
 
+                    <button
+                        type="button"
+                        class="favorite-button"
+                        data-product="cakes"
+                        aria-pressed="false">
+                        Add to Favorites
+                    </button>
+
                 </article>
+
+            </div>
+
+            <div class="favorites-panel">
+
+                <p class="eyebrow">
+                    Your Choices
+                </p>
+
+                <h2>
+                    My Bakery Favorites
+                </h2>
+
+                <p id="favorites-message">
+                    You have not saved any bakery favorites yet.
+                </p>
+
+                <ul id="favorites-list"></ul>
+
+                <p class="storage-note">
+                    Your favorites are saved in this browser
+                    so they will still be here when you return.
+                </p>
 
             </div>
 
@@ -311,6 +358,8 @@
         </p>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
